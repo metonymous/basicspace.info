@@ -63,7 +63,7 @@
 				<div class="post-header">
 					<div class="post-color">
 						<div class="title-texture">
-							<h2 class="bebas" style="visibility: visible; ">{HEADING}</h2>
+							<h2 class="bebas" style="visibility: visible; ">{{ page.heading }}</h2>
 						</div>
 						<div class="cap-post">{CAP-POST-LINK}</div>
 						<div class="clear"></div>
@@ -71,9 +71,8 @@
 					<div class="post-spacer"></div>
 				</div>
 				<div class="clear"></div>
-				<div class="post-info bebas" style="visibility: visible; "><div class="parts"><cufon class="cufon cufon-canvas" alt="5 " style="width: 11px; height: 19px; "><canvas width="28" height="19" style="width: 28px; height: 19px; top: -3px; left: 0px; "></canvas><cufontext>5 </cufontext></cufon><cufon class="cufon cufon-canvas" alt="hours " style="width: 43px; height: 19px; "><canvas width="59" height="19" style="width: 59px; height: 19px; top: -3px; left: 0px; "></canvas><cufontext>hours </cufontext></cufon><cufon class="cufon cufon-canvas" alt="ago" style="width: 24px; height: 19px; "><canvas width="36" height="19" style="width: 36px; height: 19px; top: -3px; left: 0px; "></canvas><cufontext>ago</cufontext></cufon></div><cufon class="cufon cufon-canvas" alt=" " style="width: 4px; height: 19px; "><canvas width="20" height="19" style="width: 20px; height: 19px; top: -3px; left: 0px; "></canvas><cufontext> </cufontext></cufon><div class="clear"></div></div>
 				<div class="post-content">
-					{{ content }}
+					{{ page.content }}
 				</div>
 			</div>
 			<!--- End posts loop --->
